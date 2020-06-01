@@ -2,7 +2,11 @@
     "name": "nodered-dashboard",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-getflowid": "1.0.3",
+        "node-red-contrib-ui-led-fork": "0.3.1",
+        "node-red-dashboard": "2.22.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",

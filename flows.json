@@ -63,13 +63,6 @@
         "info": ""
     },
     {
-        "id": "fe8da558.d7e79",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "8544e604.9bf28",
         "type": "subflow",
         "name": "Errorhandler",

@@ -664,6 +664,16 @@
         "icon": "dashboard"
     },
     {
+        "id": "7dc42b4a.78af3c",
+        "type": "ui_group",
+        "name": "Ladestellen",
+        "tab": "51fa8fce.4f688",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
         "id": "b0212a87.b8e9f",
         "type": "ui_led",
         "z": "885f38dd.64a8b",
@@ -4970,6 +4980,46 @@
             [
                 "e60e3c0f.4aa9f"
             ]
+        ]
+    },
+    {
+        "id": "f10d9d80.a19398",
+        "type": "ui_template",
+        "z": "6edcc166.d0745",
+        "group": "a1521b71.7d2d2",
+        "name": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<iframe src=\"https://laohome.de:7701/d-solo/NjtMTFggz/mileage?orgId=1&from=1607857693017&to=1623578893017&panelId=2\" width=\"450\" height=\"200\" frameborder=\"0\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 490,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "86e1bf03.fc097",
+        "type": "ui_template",
+        "z": "584378c2.3e16c8",
+        "group": "7dc42b4a.78af3c",
+        "name": "SC Brunnthal",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<iframe src=\"http://192.168.4.64:3003/d-solo/NjcHFGJGz/available-supercharger-stalls-statistics?orgId=1&var-Supercharger=22&var-DOW=All&var-Mode=MIN&from=1562419174927&to=1625577574927&panelId=2\" frameborder=\"0\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 320,
+        "y": 500,
+        "wires": [
+            []
         ]
     }
 ]

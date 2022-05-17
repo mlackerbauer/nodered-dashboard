@@ -1,7 +1,7 @@
 {
     "name": "nodered-dashboard",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
+    "description": "Nodered based Dashboar",
+    "version": "0.0.2",
     "dependencies": {
         "node-red-contrib-getflowid": "1.0.3",
         "node-red-contrib-ui-led-fork": "0.3.1",

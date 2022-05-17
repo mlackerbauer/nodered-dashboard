@@ -5,7 +5,7 @@
     "dependencies": {
         "node-red-contrib-getflowid": "1.0.3",
         "node-red-contrib-ui-led-fork": "0.3.1",
-        "node-red-dashboard": "2.22.1",
+        "node-red-dashboard": "3.1.7",
         "node-red-contrib-huemagic": "4.2.2",
         "node-red-contrib-re-postgres": "0.3.3",
         "node-red-contrib-ui-artless-gauge": "0.3.11",
